@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sc-app-cloud
+
+
+
+  cloud:
+    bootstrap:
+      sources: xxxc,xxxc2
+
+
+  profiles:
+    active: dev,prod
